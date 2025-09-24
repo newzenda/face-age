@@ -11,6 +11,7 @@ La verificación se realiza mediante una red neuronal de **inteligencia artifici
 - **Integración sencilla**: cualquier aplicación o sitio puede invocar Face-Age mediante una URL con parámetros.
 - **Compatibilidad internacional**: el límite de edad es configurable según las leyes o políticas de cada país o servicio.
 - **Redirección automática**: tras la verificación, el sistema responde a una URI de retorno para autorizar o denegar el acceso.
+- **No almacenamiento de datos**: Face-Age no almacena ningún dato.  Solamente se centra en evaluar si la persona aparenta determinada edad y entregar el flujo al sitio externo según sea el caso.
 
 ---
 
@@ -45,3 +46,14 @@ https://unix4you2.github.io/face-age/?limit=18&success=https://midominio.com/acc
 
 ## 📦 Instalación
 Esta aplicación está diseñada para NO requerir instalar nada del lado de la apliación o sitio externo que quiere hacer uso de la verificación así como ninguna instalación del lado del usuario final.
+
+## 📜 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT con cláusula de notificación a usuarios.
+Cualquier implementación que ponga Face-Age a disposición de usuarios finales debe informar de manera clara que el sistema utiliza Face-Age de Newzenda.
+Consulta el archivo LICENSE para más detalles.
+
+## 💡 Nota legal
+
+Face-Age entrega una estimación estadística de edad. No constituye prueba legal ni reemplaza los mecanismos de verificación exigidos por las autoridades.
+El responsable del sitio o servicio que integre Face-Age es quien debe cumplir la normativa de protección de datos y privacidad aplicable.
